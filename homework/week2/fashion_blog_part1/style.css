@@ -1,0 +1,30 @@
+body{
+	background-color: white;
+	padding: 20px 50px 20px 50px;
+	border: solid 3px black;
+	text-align: center;
+	width:800px;
+}
+
+.tophead{color: black;
+	font-weight: lighter;
+	font-family: cursive;
+	font-size: 30px;
+}
+
+.date{
+	color:gray;
+	font-size: 15px;
+	font-weight: lighter;
+}
+
+h1{
+	color: black;
+	font-weight: bold;
+}
+
+/* Quesitons: Why cant I align adjust the text position of the different classes?
+            : What are all the different text font available?
+            : What is the different between text family & style?
+            : How can I close the spacing between words?
+            : How can I move the entire box to the center? */

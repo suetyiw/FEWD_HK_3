@@ -7,9 +7,11 @@ body{
 }
 
 .tophead{color: black;
-	font-weight: lighter;
+	font-weight: lighter; 
 	font-family: cursive;
 	font-size: 30px;
+	text-align: left;
+
 }
 
 .date{
@@ -21,7 +23,10 @@ body{
 h1{
 	color: black;
 	font-weight: bold;
+
 }
+
+
 
 /* Quesitons: Why cant I align adjust the text position of the different classes?
             : What are all the different text font available?

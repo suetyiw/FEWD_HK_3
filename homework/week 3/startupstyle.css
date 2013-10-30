@@ -1,0 +1,30 @@
+body {
+
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+	background-color: #EEE;
+}
+
+header {
+	background-color: black;
+}
+
+h1 {
+	font-family: 'Montaga',sans-serif;
+	font-size: 30px;
+	color: #FFF667;
+}
+
+nav	{
+	float: right;
+}
+
+nav li {
+	display: inline;
+	text-decoration: none;
+}
+
+

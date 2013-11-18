@@ -1,0 +1,47 @@
+#tempConverter button{
+	display: inline;
+}
+
+#tempConverter input{
+	width: 50px;
+	height:20px;
+}
+
+h1{background-color: white;
+	width: 500px;
+	margin: 0px auto;
+	font-family: "Nosifer", cursive;
+	text-align: center;
+}
+
+body{
+	background-color: white;
+	border: solid 1px black;
+}
+
+#tempConverter {
+	width:800px;
+	height:150px;
+	padding-top: 100px;
+	float:right;
+	background: lime;
+
+	}
+	}
+
+}
+}
+
+.clearfix:after { /* expands collapsed parent to clear its height past its floating children */
+
+	content: "."; /* adds html text of period symbol (:after) all opther children inside the parent with is .clear:after class applied to it. */
+	
+	display: block; /* set newly created content: to display block */
+	
+	clear: both; /* sets the '.' content to clear past all of the floating children giving a height reference. */
+	
+	visibility: hidden; /* make the '.' content invisible. */
+	
+	line-height: 0; /* make sure it has no text line-height */
+	
+	height: 0; /* make sue it has no physical height */

@@ -1,67 +1,68 @@
-![GeneralAssemb.ly](../../img/icons/FEWD_Logo.png)
+![General Assembly](../assets/images/ga.png)
+# FEWD LESSON 13
 
-#FEWD - Forms & Inputs
+## FEWD - Forms & Inputs
 
-###Instructor Name
-
-Instructors current role.
-
----
-
-
-##Agenda
+### Instructors
+Kit Yuen & Mart van de Ven
 
 
 
----
+## Agenda
+<aside class="notes"></aside>
 
-##Forms
+* Forms
+* Inputs
+* Building an application form
+
+
+
+## Forms
+<aside class="notes">Mart ~ 20 Min</aside>
 
 How we can get data from users.
 
 ![](../../img/unit_2/forms.png)
 
----
 
-##Forms
 
-*	Wrapper for data collection elements 
+## Forms
+<aside class="notes"></aside>
+
+*	Wrapper for data collection elements
 
 	*	Text fields
 	*	dropdowns
-	*	Radio Buttons 
+	*	Radio Buttons
 	*	etc
-	
----
 
 
-##Forms
 
-Tells the page: 
+## Forms
+<aside class="notes"></aside>
+
+Tells the page:
 
 *	Where to send the data
 *	How to send it
 *	What is being sent
 
----
 
-##Form Tag
+## Form Tag
+<aside class="notes"></aside>
 
 ![](../../img/unit_2/form_tag.png)
 
 Available Attributes
 
-*	Method
-*	Post,get,put,delete
-*	Action
-*	Url to send data to
-*	Enctype
-*	Multipart/form-data if uploading files
-
----
+*	Method (POST, GET, PUT, DELETE)
+*	Action (Url to send data to)
+*	Enctype (Multipart/form-data if uploading files)
 
 
-##Form Tag
+
+## Form Tag
+<aside class="notes"></aside>
 
 In Action
 
@@ -71,21 +72,9 @@ In Action
 </form>
 ```
 
----
 
-##Inputs
-
-*	Place between ```<form> </form>``` tags
-
-*	Attributes
-	*	Type 
-	*	Text,submit,password,email,checkbox,button,radio,file,etc
-	*	Name
-		*	Used server side 
-	*	Placeholder
-	*	Value
-
-<aside class="notes">
+## Inputs
+<aside class="notes"> Kit ~ 20 Min
 
 Complete Spec: <a href="http://www.w3schools.com/tags/tag_input.asp"
 
@@ -95,10 +84,18 @@ Complete Spec: <a href="http://www.w3schools.com/tags/tag_input.asp"
 
 </aside>
 
----
+*	Place between ```<form> </form>``` tags
+
+*	Attributes
+	*	Type (Text,submit,password,email,checkbox,button,radio,file,etc)
+	*	Name (Used server side)
+	*	Placeholder
+	*	Value
 
 
-##Text
+
+## Text
+<aside class="notes"></aside>
 
 Use value to set initial text
 
@@ -107,9 +104,10 @@ Use value to set initial text
 
 ![](../../img/unit_2/forms.png)
 
----
 
-##Email
+
+## Email
+<aside class="notes"></aside>
 
 Allows browser to autofill field
 
@@ -118,18 +116,19 @@ Allows browser to autofill field
 ![](../../img/unit_2/email.png)
 
 
----
 
-##Password
+## Password
+<aside class="notes"></aside>
 
 Hides characters as typed
 
 ![](../../img/unit_2/password_type.png)
 ![](../../img/unit_2/password.png)
 
----
 
-##Submit vs File vs Button
+
+## Submit vs File vs Button
+<aside class="notes"></aside>
 
 *	Value is button text. Defaults to submit in chrome, submit query in IE ```<input type=“submit” value=“Submit”>```
 
@@ -139,21 +138,27 @@ Hides characters as typed
 
 *	Creates clickable button ```<input type=“button”>```
 
----
 
-##Select and Option
+
+## Select and Option
+<aside class="notes"></aside>
 
 ![](../../img/unit_2/select.png)
 
----
 
-##Select and Option
+
+## Select and Option
+<aside class="notes"></aside>
 
 ![](../../img/unit_2/select_type.png)
 
----
 
-##Labels
+
+## Labels
+<aside class="notes">
+Usability
+Clicking the label text in either case places the focus in the input field (great for radio buttons)
+</aside>
 
 Information about the input field should be put in a ```<label>``` tag
 
@@ -163,14 +168,10 @@ To tie the two together choose one of these methods:
 
 ```<label for="yourName">Name</label><input type="text" name=“yourName” id=“yourName”>```
 
-<aside class="notes">
-Usability
-Clicking the label text in either case places the focus in the input field (great for radio buttons)
-</aside>
 
----
 
-##Styling
+## Styling
+<aside class="notes">Mart ~ 15 Min</aside>
 
 *	Can’t be styled directly
 	*	Checkboxes, File upload inputs, Radio buttons
@@ -180,15 +181,16 @@ Clicking the label text in either case places the focus in the input field (grea
 	2.	Hide the element, style a corresponding label how you wanted the element to appear
 	3.	Try using pseudo elements and the selector :checked for no JS switching between checked and unchecked images used for styling
 
----
+
 
 ![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
-##GA Application Form
+## GA Application Form
+<aside class="notes">Both ~ 90 Min</aside>
 
----
 
 
-##Optional: Fieldset/Legend
+## Optional: Fieldset/Legend
+<aside class="notes">Kit ~ 10 Min</aside>
 
 ```
 <fieldset>
@@ -205,12 +207,12 @@ Defines the grouping term for the fieldset
 </fieldset>
 ```
 
----
-
-##Optional: Validation
-
-*	Use library or simple if/else statements
-*	Parsley.js is an easy library to show off
 
 
----
+## Optional: Validation
+<aside class="notes">Mart ~ 10 Min</aside>
+
+*	Use simple if/else statements
+*	or a validation library like [Parsley.js](http://parsleyjs.org/documentation.html)
+
+

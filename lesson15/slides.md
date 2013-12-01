@@ -208,6 +208,13 @@ Defines the grouping term for the fieldset
 ```
 
 
+## Optional: GET Requests
+<aside class="notes">Mart ~ 5 Min</aside>
+
+* GET request encodes data as part of URL
+* POST encodes data as part of the payload
+
+
 
 ## Optional: Validation
 <aside class="notes">Mart ~ 10 Min</aside>

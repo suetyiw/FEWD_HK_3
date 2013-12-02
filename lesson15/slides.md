@@ -1,5 +1,5 @@
 ![General Assembly](../assets/images/ga.png)
-# FEWD LESSON 13
+# FEWD LESSON 15
 
 ## FEWD - Forms & Inputs
 
@@ -22,7 +22,7 @@ Kit Yuen & Mart van de Ven
 
 How we can get data from users.
 
-![](../../img/unit_2/forms.png)
+![](../assets/images/unit_2/forms.png)
 
 
 
@@ -48,10 +48,11 @@ Tells the page:
 *	What is being sent
 
 
+
 ## Form Tag
 <aside class="notes"></aside>
 
-![](../../img/unit_2/form_tag.png)
+![](../assets/images/unit_2/form_tag.png)
 
 Available Attributes
 
@@ -73,10 +74,9 @@ In Action
 ```
 
 
+
 ## Inputs
 <aside class="notes"> Kit ~ 20 Min
-
-Complete Spec: <a href="http://www.w3schools.com/tags/tag_input.asp"
 
 *	Gotchas
 	*	The font-family for an input is not inherited!!!
@@ -92,6 +92,8 @@ Complete Spec: <a href="http://www.w3schools.com/tags/tag_input.asp"
 	*	Placeholder
 	*	Value
 
+[Complete Spec](http://www.w3schools.com/tags/tag_input.asp)
+
 
 
 ## Text
@@ -99,10 +101,8 @@ Complete Spec: <a href="http://www.w3schools.com/tags/tag_input.asp"
 
 Use value to set initial text
 
-
-![](../../img/unit_2/text.png)
-
-![](../../img/unit_2/forms.png)
+![](../assets/images/unit_2/text.png)
+![](../assets/images/unit_2/forms.png)
 
 
 
@@ -111,9 +111,8 @@ Use value to set initial text
 
 Allows browser to autofill field
 
-![](../../img/unit_2/email_type.png)
-
-![](../../img/unit_2/email.png)
+![](../assets/images/unit_2/email_type.png)
+![](../assets/images/unit_2/email.png)
 
 
 
@@ -122,35 +121,35 @@ Allows browser to autofill field
 
 Hides characters as typed
 
-![](../../img/unit_2/password_type.png)
-![](../../img/unit_2/password.png)
+![](../assets/images/unit_2/password_type.png)
+![](../assets/images/unit_2/password.png)
 
 
 
 ## Submit vs File vs Button
 <aside class="notes"></aside>
 
-*	Value is button text. Defaults to submit in chrome, submit query in IE ```<input type=“submit” value=“Submit”>```
+*	Value is button text. Defaults to submit in chrome, submit query in IE ```<input type="submit" value="Submit">```
 
+*	Creates a file upload element ```<input type="file">```
 
-*	Creates a file upload element ```<input type=“file”>```
-
-
-*	Creates clickable button ```<input type=“button”>```
-
-
-
-## Select and Option
-<aside class="notes"></aside>
-
-![](../../img/unit_2/select.png)
+*	Creates clickable button ```<input type="button">```
 
 
 
 ## Select and Option
 <aside class="notes"></aside>
 
-![](../../img/unit_2/select_type.png)
+![](../assets/images/unit_2/select.png)
+
+
+
+## Select and Option
+<aside class="notes"></aside>
+
+![](../assets/images/unit_2/select_type.png)
+
+[HTML &lt;select&gt; Tag](http://www.w3schools.com/tags/tag_select.asp)
 
 
 
@@ -166,7 +165,13 @@ To tie the two together choose one of these methods:
 
 ```<label>Name <input type="text" name="yourName"></label>```
 
+<br>
+
+A label that is associated with a control via __for__ will be clickable too
+
 ```<label for="yourName">Name</label><input type="text" name=“yourName” id=“yourName”>```
+
+[HTML &lt;label&gt; Tag](http://www.w3schools.com/tags/tag_label.asp)
 
 
 
@@ -183,7 +188,7 @@ To tie the two together choose one of these methods:
 
 
 
-![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
+![GeneralAssemb.ly](../assets/images/icons/exercise_icon_md.png)
 ## GA Application Form
 <aside class="notes">Both ~ 90 Min</aside>
 
@@ -192,13 +197,15 @@ To tie the two together choose one of these methods:
 ## Optional: Fieldset/Legend
 <aside class="notes">Kit ~ 10 Min</aside>
 
-```
-<fieldset>
+`<fieldset>`
 Wrapper for grouped form elements
 Ex: First, middle, last name text fields
-<legend>
+
+`<legend>`
 Goes inside fieldset
 Defines the grouping term for the fieldset
+
+```
 <fieldset>
 	<legend>Your Name</legend>
 	<input type=“text” name=“first_name”>
@@ -206,6 +213,7 @@ Defines the grouping term for the fieldset
 	<input type=“text” name=“last_name”>
 </fieldset>
 ```
+
 
 
 ## Optional: GET Requests
@@ -221,5 +229,3 @@ Defines the grouping term for the fieldset
 
 *	Use simple if/else statements
 *	or a validation library like [Parsley.js](http://parsleyjs.org/documentation.html)
-
-

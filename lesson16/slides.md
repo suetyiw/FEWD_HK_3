@@ -28,6 +28,7 @@ Kit Yuen & Mart van de Ven
 ## Build a to-do list app. From pseudo code to HTML/CSS and JavaScript.
 
 
+
 ## PhoneGap
 <aside class="notes"></aside>
 

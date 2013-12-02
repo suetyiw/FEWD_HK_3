@@ -169,7 +169,7 @@ To tie the two together choose one of these methods:
 
 A label that is associated with a control via __for__ will be clickable too
 
-```<label for="yourName">Name</label><input type="text" name=“yourName” id=“yourName”>```
+```<label for="yourName">Name</label><input type="text" name="yourName" id="yourName">```
 
 [HTML &lt;label&gt; Tag](http://www.w3schools.com/tags/tag_label.asp)
 
@@ -191,6 +191,10 @@ A label that is associated with a control via __for__ will be clickable too
 ![GeneralAssemb.ly](../assets/images/icons/exercise_icon_md.png)
 ## GA Application Form
 <aside class="notes">Both ~ 90 Min</aside>
+
+[HTML &lt;optgroup&gt; Tag](http://www.w3schools.com/tags/tag_optgroup.asp)
+
+[HTML &lt;textarea&gt; Tag](http://www.w3schools.com/tags/tag_textarea.asp)
 
 
 
